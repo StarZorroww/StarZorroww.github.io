@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio - Slider</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/BeerSlider.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        Portfolio XD
+    </div>
+
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+
+                <div class="nav-link-wrapper">
+                    <a href="index.html" class="nav-link-animation">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html" class="nav-link-animation">About</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="slider.html" class="nav-link-selected-animation">Slider</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="contactus.html" class="nav-link-animation">Contact us</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>STAR ZORROW</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+
+            <header class="heading-font">
+                <h1>Image Comparison</h1>
+                <h2>Responsive & Accessible Before-After Slider Using BeerSlider plugin!</h2>
+            </header>
+
+            <div id="compare" class="beer-slider" data-beer-label="before">
+                <img src="images/sliderImages/img1.png" alt="">
+                <div class="beer-reveal" data-beer-label="after">
+                    <img src="images/sliderImages/img2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" style="padding-top: 400px">
+        Portfolio XD
+    </div>
+</body>
+
+<script src="js/BeerSlider.js"></script>
+<!-- Add this to activate the slider-->
+<script>
+    new BeerSlider(document.getElementById('compare'));
+</script>
+
+</html>

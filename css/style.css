@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    color: black;
+    font-weight: 300;
+}
+
+.heading-font {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0 12px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    margin: 0 0 1.5rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+.beer-slider[dota-beer-label]:after,
+.beer-reveal[dota-beer-label]:after {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.beer-slider {
+    box-shadow: 0 12px 16px -8px black;
+}
+
+#compare {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 44%;
+    left: 39%;
+    margin-top: -80px;
+    margin-left: -50px;
+    width: 407px;
+    height: 405px;
+}
